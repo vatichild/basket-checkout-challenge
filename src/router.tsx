@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom"
 import Main from "./layouts/Main"
 import Products from "./pages/Products"
-import Basket from "./pages/Basket"
+import Checkout from "./pages/Checkout.tsx"
+import Success from "./pages/Success.tsx"
 
 const router = createBrowserRouter([
     {
@@ -13,8 +14,12 @@ const router = createBrowserRouter([
                 element: <Products />,
             },
             {
-                path: '/basket',
-                element: <Basket />,
+                path: '/checkout',
+                element: <Checkout />,
+            },
+            {
+                path: '/success',
+                element: <Success />,
             }
         ],
     },

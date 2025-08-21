@@ -1,5 +1,7 @@
+import ProductsList from "../components/ProductsList.tsx";
+
 const Products = () => {
-    return <div>Products</div>
+    return <ProductsList />
 }
 
 export default Products;
