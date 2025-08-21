@@ -45,4 +45,3 @@ This will create an optimized production build in the `dist` folder.
 * [React](https://reactjs.org/) – UI library
 * [TypeScript](https://www.typescriptlang.org/) – Typed JavaScript
 
----
