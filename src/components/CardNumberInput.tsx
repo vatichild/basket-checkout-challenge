@@ -18,6 +18,7 @@ const CardNumberInput = ({
                 </div>
                 <input
                     value={defaultValue}
+                    maxLength={16}
                     onChange={onChange}
                     className={`w-full p-2 border rounded border-gray-400  ${
                         defaultValue.length !== 0 &&
